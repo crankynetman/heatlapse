@@ -1,0 +1,6 @@
+services:
+  heatlapse:
+    build:
+      context: .
+    volumes:
+      - ./heatlapse:/app
